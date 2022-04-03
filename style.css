@@ -1,0 +1,201 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  background: #e0dbdb;
+  color: #0f141e;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  color: blue;
+}
+
+a:visited {
+  color: grey;
+}
+
+.avatar {
+  width: 200px;
+  border-radius: 28px;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+  transition: width 1s;
+  transition-timing-function: linear;
+}
+
+.avatar:hover {
+  width: 300px;
+}
+
+.info {
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.info-text {
+  width: 450px;
+  margin-left: 40px;
+}
+
+.info-text p {
+  font-style: italic;
+  font-weight: bold;
+  color: #86898f;
+  margin: 0;
+}
+
+.info-text h4 {
+  margin-bottom: 10px;
+}
+
+@media (max-width: 650px) {
+  .info {
+    display: block;
+    text-align: center;
+  }
+}
+
+.container {
+  max-width: 750px;
+  margin: auto;
+  padding-top: 30px;
+}
+
+.card {
+  border-radius: 20px;
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  transition: all 0.5s ease-in-out;
+}
+
+.card:hover {
+  font-weight: bold;
+}
+
+.hobby {
+  background: #b1f6a3;
+}
+
+.hobby:hover {
+  border-top: 4px solid rgb(1, 123, 1);
+  border-bottom: 4px solid rgb(1, 123, 1);
+  background-color: #6ffc53;
+}
+
+.experience {
+  background: #f9f69be6;
+}
+
+.experience:hover {
+  border-top: 4px solid rgb(247, 166, 17);
+  border-bottom: 4px solid rgb(247, 166, 17);
+  background: #f8f257e6;
+}
+
+.goal {
+  background: #b6c7f6;
+}
+
+.goal:hover {
+  border-top: 4px solid #4062c1;
+  border-bottom: 4px solid #4062c1;
+  background: #7598f8;
+}
+
+button {
+  background: #111;
+  padding: 15px 20px;
+  color: #fff;
+  border: none;
+  border-radius: 28px;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.list {
+  padding: 0 20px;
+}
+
+.table {
+  width: 100%;
+}
+
+.table td {
+  padding-bottom: 10px;
+}
+
+.table td:nth-child(2),
+.table td:nth-child(3) {
+  color: #606368;
+}
+
+.table tr {
+  border-bottom: black;
+  z-index: 2;
+}
+
+.form h2 {
+  text-align: center;
+}
+
+.form-row {
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.form-row .form-group {
+  margin-right: 20px;
+  width: 50%;
+}
+
+.form-row .form-group:last-child {
+  margin-right: 0;
+}
+
+@media (max-width: 650px) {
+  .form-row {
+    display: block;
+  }
+
+  .form-row .form-group {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
+
+.form-group label {
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+  color: #86898f;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  background: rgb(237 232 231);
+  border-bottom: 1px solid #ccc;
+  color: #000;
+  padding: 15px 0 10px;
+  padding-left: 5px;
+  outline: none;
+  font-family: inherit;
+  margin-top: 5px;
+}
