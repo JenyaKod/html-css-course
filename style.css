@@ -143,6 +143,11 @@ button:hover {
   color: #606368;
 }
 
+.table tr {
+  border-bottom: black;
+  z-index: 2;
+}
+
 .form h2 {
   text-align: center;
 }
